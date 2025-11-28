@@ -49,7 +49,7 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrls: ['/planet-06.png', '/planet-07.png', '/planet-08.png'],
+    imgUrls: ['/Statistika_Dashboard.png', '/planet-07.png', '/planet-08.png'],
     title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
     github: 'https://youtube.com',
     website: 'https://google.com',
@@ -57,13 +57,25 @@ export const insights = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
-    imgUrls: ['/planet-07.png'],
+    imgUrls: ['/bincau_muara.png', '/Bincau_Dashboard.png', '/Bincau_PetaUmum.png', 'Bincau_PetaWilayah.png', '/Bincau_PetaJalan.png', '/Bincau_PetaInteraktif'],
     title: '7 tips to easily master the madness of the Metaverse',
     subtitle:
         'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrls: ['/planet-08.png'],
+    imgUrls: ['/SPECTANI.jpg', '/Spectani-1.jpeg', '/Spectani-2.jpeg', '/Spectani_BankIndonesia.png'],
+    title: 'With one platform you can explore the whole world virtually',
+    subtitle:
+        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+  },
+  {
+    imgUrls: ['/Statistika_Dashboard.png'],
+    title: '7 tips to easily master the madness of the Metaverse',
+    subtitle:
+        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+  },
+  {
+    imgUrls: ['/Spectani_BankIndonesia.png'],
     title: 'With one platform you can explore the whole world virtually',
     subtitle:
         'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
