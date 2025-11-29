@@ -73,7 +73,7 @@ const Insights = () => {
                     key={selected.imgUrls[activeImage]}
                     src={selected.imgUrls[activeImage]}
                     alt={selected.title}
-                    className="max-w-[500px] w-full max-h-[400px] object-contain rounded-xl mb-6"
+                    className="max-w-[1000px] w-full max-h-[500px] object-contain rounded-xl mb-6"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.3 }}
