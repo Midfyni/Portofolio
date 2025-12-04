@@ -1,0 +1,37 @@
+'use client';
+
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
+
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
+
+const Footer = () => (
+  <motion.footer
+    variants={footerVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings} py-8 relative`}
+  >
+    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+      <div className="flex flex-col">
+        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+        <div className="flex items-center justify-center flex-wrap gap-4">
+          <div className="flex gap-4">
+            {socials.map((social) => (
+              <a href={social.url} key={social.name} target="_blank" rel="noreferrer">
+                <img
+                  src={social.png}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain cursor-pointer"
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </motion.footer>
+);
+
+export default Footer;
